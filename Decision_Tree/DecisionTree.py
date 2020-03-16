@@ -168,13 +168,3 @@ class DecisionTree:
         X = pd.read_csv(path)
         X = feature_processing(X)
         return self.dtree.predict(X.values)
-
-# test steps
-# regressor = DecisionTree().train('Datasets/q3/train.csv')
-# preds = regressor.predict('Datasets/q3/test.csv')
-# raw_test_labels = pd.read_csv("Datasets/q3/test_labels.csv", header= None)
-#
-#
-# MSE = np.square( np.subtract( raw_test_labels[1] , preds)  ).mean()
-# print(MSE)
-#
