@@ -1,0 +1,16 @@
+1. Title: airfoil.csv (NASA data set, obtained from a series of aerodynamic and acoustictests of two and three-dimensional airfoil blade sections)
+
+2. Number of Instances: 1202
+
+3. Number of Attributes: 5 + output variable
+
+4. Attribute Information:
+	
+	1. Frequency, in Hertzs.
+	2. Angle of attack, in degrees.
+	3. Chord length, in meters.
+	4. Free-stream velocity, in meters per second.
+	5. Suction side displacement thickness, in meters.
+	6. Scaled sound pressure level, in decibels.
+
+5. Missing Attribute Values: None

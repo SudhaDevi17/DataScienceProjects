@@ -1,0 +1,21 @@
+1. Title: historical weather database
+
+2. Number of Instances: 77286
+
+3. Number of Attributes: 10 + output variable
+
+4. Attribute Information:
+	
+	1. Formatted Date
+	2. Summary
+	3. Precip Type // it has 3 values rain, snow and null, there is no missing value it's null. 
+	4. Temperature (C)
+	5. Apparent Temperature (C) [Output Class]
+	6. Humidity
+	7. Wind Speed (km/h)
+	8. Wind Bearing (degrees)
+	9. Visibility (km)
+	10. Pressure (millibars)
+	11. Daily Summary
+
+5. Missing Attribute Values: None
