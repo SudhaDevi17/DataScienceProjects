@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-PATH = '../weather.csv'
+PATH = 'Linear_Regression/Weather/weather.csv'
 
 
 class TestAlgorithms(TestCase):

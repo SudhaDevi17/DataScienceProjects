@@ -5,3 +5,4 @@ install:
   - pip install -r requirements.txt
 script:
   - python Linear_Regression/Airfoil/code/test.py
+  - python Linear_Regression/Weather/test.py

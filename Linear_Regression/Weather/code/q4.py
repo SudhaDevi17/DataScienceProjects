@@ -13,7 +13,7 @@ def data_processing(data, mode=None):
     # excluding these columns during selection
     X = data[['Precip_Type', 'Humidity', 'Win_Speed', 'Wind_Bearing', 'Visibility', 'Pressure']]
     if mode == None:
-        y = data['Temperature']  # .to_numpy()
+        y = data['Temperature'].to_numpy()
 
     # impute missing values
     X['Precip_Type'] = X['Precip_Type'].fillna(X['Precip_Type'].value_counts().index[0])
