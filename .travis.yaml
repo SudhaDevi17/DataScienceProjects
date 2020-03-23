@@ -4,4 +4,4 @@ python:
 install:
   - pip install --user -r requirements.txt
 script:
-  - python code/test.py
+  - python Linear_Regression/Airfoil/code/test.py
