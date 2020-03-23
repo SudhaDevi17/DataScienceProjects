@@ -55,7 +55,7 @@ def train(path):
                     'suction_side_displacement_thickness', 'scaled_sound_pressure']
     x = data[
         ['frequency', 'angle_of_attack', 'chord_length', 'free_stream_velocity', 'suction_side_displacement_thickness']]
-    y = data['scaled_sound_pressure']  # .to_numpy()
+    y = data['scaled_sound_pressure'].to_numpy()
 
     # Initializations
     scaler = StandardScaler()
