@@ -1,8 +1,8 @@
 from unittest import TestCase
 
-PATH = '../airfoil.csv'
+PATH = 'Linear_Regression/Airfoil/airfoil.csv'
 
 #test
 class TestAlgorithms(TestCase):
-    from Airfoil import train
+    from Linear_Regression.Airfoil.code.Airfoil import train
     train(PATH)
