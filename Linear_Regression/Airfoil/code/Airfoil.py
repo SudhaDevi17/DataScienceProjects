@@ -75,7 +75,7 @@ def train(path):
     with open('model.pkl', 'wb') as f:
         pickle.dump(thetas, f)
 
-    preprocessing_obj = open('scaler.obj', 'w')
+    preprocessing_obj = open('scaler.obj', 'wb')
     pickle.dump(scaler, preprocessing_obj)
 
     return train_error
@@ -92,7 +92,7 @@ def predict(path):
         ['frequency', 'angle_of_attack', 'chord_length', 'free_stream_velocity', 'suction_side_displacement_thickness']]
 
     try:
-        file_pi2 = open('scaler.obj', 'r')
+        file_pi2 = open('scaler.obj', 'rb')
         scaler = pickle.load(file_pi2)
         with open('model.pkl', 'rb') as f:
             slope = pickle.load(f)

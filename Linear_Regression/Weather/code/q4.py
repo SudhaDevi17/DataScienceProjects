@@ -114,7 +114,7 @@ def predict(path):
     X_test = X_test[['Humidity', 'Win_Speed', 'Wind_Bearing', 'Visibility', 'Pressure', 'Precip_Type']]
 
     try:
-        file_pi2 = open('scaler.obj', 'r')
+        file_pi2 = open('scaler.obj', 'rb')
         scaler = pickle.load(file_pi2)
         with open('model.pkl', 'rb') as f:
             slope = pickle.load(f)
